@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Live Sidebar",
+  "version": "1.0.0",
+  "description": "Shows live streams from subscriptions in a separate sidebar section.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+	"64": "icon64.png",
+    "128": "icon128.png"
+  }
+}
