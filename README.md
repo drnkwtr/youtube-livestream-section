@@ -1,4 +1,4 @@
-# YouTube Live Section
+# YouTube Livestream Section
 
 ![demo](./demo.png)
 
@@ -37,7 +37,7 @@ https://github.com/drnkwtr/youtube-livestream-section/archive/refs/heads/main.zi
 
 ---
 
-# YouTube Live Section
+# YouTube Livestream Section
 
 ![demo](./demo.png)
 
