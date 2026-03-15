@@ -23,6 +23,11 @@
 
 https://github.com/drnkwtr/youtube-livestream-section/releases/latest
 
+
+### Или напрямую через исходный код
+
+https://github.com/drnkwtr/youtube-livestream-section/archive/refs/heads/main.zip
+
 ### Инструкция по установке
 
 1. Распакуйте архив
