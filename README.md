@@ -21,7 +21,7 @@
 
 Скачайте последнюю версию:
 
-https://github.com/YOUR_USERNAME/youtube-live-sidebar/releases
+https://github.com/drnkwtr/youtube-livestream-section/releases/latest
 
 Можно установить двумя способами.
 
@@ -34,8 +34,8 @@ https://github.com/YOUR_USERNAME/youtube-live-sidebar/releases
 
 1. Распакуйте архив
 2. Откройте `chrome://extensions`
-3. Включите **Developer mode**
-4. Нажмите **Load unpacked**
+3. Включите **Режим разработчика**
+4. Нажмите **Загрузить распакованное расширение**
 5. Выберите папку расширения
 
 ---
