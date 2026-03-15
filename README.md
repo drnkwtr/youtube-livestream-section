@@ -23,14 +23,7 @@
 
 https://github.com/drnkwtr/youtube-livestream-section/releases/latest
 
-Можно установить двумя способами.
-
-**CRX**
-
-1. Откройте `chrome://extensions`
-2. Перетащите файл `.crx` на страницу
-
-**ZIP / папка**
+### Инструкция по установке
 
 1. Распакуйте архив
 2. Откройте `chrome://extensions`
