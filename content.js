@@ -5,14 +5,18 @@ function expandSubscriptions() {
 
 function getSubscriptionsSection() {
   return [...document.querySelectorAll("ytd-guide-section-renderer")]
-    .find(s => s.innerText.includes("Подписки"));
+    .find(section => section.querySelector("#header-entry"));
+}
+
+function getLiveTitle() {
+  const lang = document.documentElement.lang || "en";
+
+  if (lang.startsWith("ru")) return "Прямые трансляции";
+  return "Live Streams";
 }
 
 function getLiveChannels(section) {
-  return [...section.querySelectorAll("ytd-guide-entry-renderer")]
-    .filter(e =>
-      e.querySelector("#endpoint")?.getAttribute("aria-label")?.includes("трансляц")
-    );
+  return [...section.querySelectorAll('ytd-guide-entry-renderer[line-end-style="badge"]')];
 }
 
 function createLiveSection(subsSection) {
@@ -25,9 +29,10 @@ function createLiveSection(subsSection) {
 
   const header = document.createElement("ytd-guide-entry-renderer");
   header.setAttribute("is-header", "");
+
   header.innerHTML = `
     <div style="padding:8px 16px;font-size:14px;color:var(--yt-spec-text-secondary)">
-      Прямые трансляции
+      ${getLiveTitle()}
     </div>
   `;
 
